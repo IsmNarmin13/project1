@@ -1,0 +1,10 @@
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\bin\Debug\netcoreapp3.1\Math_Functions.deps.json
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\bin\Debug\netcoreapp3.1\Math_Functions.dll
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\bin\Debug\netcoreapp3.1\Math_Functions.pdb
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.csproj.AssemblyReference.cache
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.AssemblyInfoInputs.cache
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.AssemblyInfo.cs
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.csproj.CoreCompileInputs.cache
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.dll
+C:\Users\comp-service\Desktop\CompanyApplication\ProjectForOurUniversity\MathFunctions\obj\Debug\netcoreapp3.1\Math_Functions.pdb

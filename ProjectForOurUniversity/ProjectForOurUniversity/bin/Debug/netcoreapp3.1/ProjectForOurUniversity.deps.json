@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ProjectForOurUniversity/1.0.0": {
+        "dependencies": {
+          "Math_Functions": "1.0.0"
+        },
+        "runtime": {
+          "ProjectForOurUniversity.dll": {}
+        }
+      },
+      "Math_Functions/1.0.0": {
+        "runtime": {
+          "Math_Functions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectForOurUniversity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Math_Functions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
