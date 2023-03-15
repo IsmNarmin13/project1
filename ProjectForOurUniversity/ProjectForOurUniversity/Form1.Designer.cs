@@ -39,6 +39,11 @@
             this.findRootOfTheEquationButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.resultTextBox = new System.Windows.Forms.TextBox();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pointTextBox = new System.Windows.Forms.TextBox();
+            this.findDerivativeButton = new System.Windows.Forms.Button();
+            this.ordersComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -93,7 +98,7 @@
             // functionsComboBox
             // 
             this.functionsComboBox.FormattingEnabled = true;
-            this.functionsComboBox.Location = new System.Drawing.Point(311, 44);
+            this.functionsComboBox.Location = new System.Drawing.Point(344, 44);
             this.functionsComboBox.Name = "functionsComboBox";
             this.functionsComboBox.Size = new System.Drawing.Size(164, 28);
             this.functionsComboBox.TabIndex = 6;
@@ -101,7 +106,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(311, 21);
+            this.label4.Location = new System.Drawing.Point(344, 21);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 20);
             this.label4.TabIndex = 7;
@@ -109,7 +114,7 @@
             // 
             // findRootOfTheEquationButton
             // 
-            this.findRootOfTheEquationButton.Location = new System.Drawing.Point(311, 87);
+            this.findRootOfTheEquationButton.Location = new System.Drawing.Point(344, 89);
             this.findRootOfTheEquationButton.Name = "findRootOfTheEquationButton";
             this.findRootOfTheEquationButton.Size = new System.Drawing.Size(164, 74);
             this.findRootOfTheEquationButton.TabIndex = 8;
@@ -135,11 +140,61 @@
             this.resultTextBox.Size = new System.Drawing.Size(229, 34);
             this.resultTextBox.TabIndex = 10;
             // 
+            // clearButton
+            // 
+            this.clearButton.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.clearButton.Location = new System.Drawing.Point(12, 227);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(185, 87);
+            this.clearButton.TabIndex = 11;
+            this.clearButton.Text = "Clear";
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(537, 21);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Point!";
+            // 
+            // pointTextBox
+            // 
+            this.pointTextBox.Location = new System.Drawing.Point(537, 45);
+            this.pointTextBox.Name = "pointTextBox";
+            this.pointTextBox.Size = new System.Drawing.Size(131, 27);
+            this.pointTextBox.TabIndex = 13;
+            // 
+            // findDerivativeButton
+            // 
+            this.findDerivativeButton.Location = new System.Drawing.Point(537, 128);
+            this.findDerivativeButton.Name = "findDerivativeButton";
+            this.findDerivativeButton.Size = new System.Drawing.Size(131, 74);
+            this.findDerivativeButton.TabIndex = 14;
+            this.findDerivativeButton.Text = "Find derivative in point";
+            this.findDerivativeButton.UseVisualStyleBackColor = true;
+            this.findDerivativeButton.Click += new System.EventHandler(this.findDerivativeButton_Click);
+            // 
+            // ordersComboBox
+            // 
+            this.ordersComboBox.FormattingEnabled = true;
+            this.ordersComboBox.Location = new System.Drawing.Point(537, 89);
+            this.ordersComboBox.Name = "ordersComboBox";
+            this.ordersComboBox.Size = new System.Drawing.Size(131, 28);
+            this.ordersComboBox.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 235);
+            this.ClientSize = new System.Drawing.Size(685, 334);
+            this.Controls.Add(this.ordersComboBox);
+            this.Controls.Add(this.findDerivativeButton);
+            this.Controls.Add(this.pointTextBox);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.findRootOfTheEquationButton);
@@ -171,5 +226,10 @@
         private System.Windows.Forms.Button findRootOfTheEquationButton;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox resultTextBox;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox pointTextBox;
+        private System.Windows.Forms.Button findDerivativeButton;
+        private System.Windows.Forms.ComboBox ordersComboBox;
     }
 }
